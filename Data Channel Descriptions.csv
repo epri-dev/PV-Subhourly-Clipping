@@ -1,41 +1,41 @@
-﻿Number,Name,Node Type,Node Name,Type,Unit,Descriptor
-1,Fixed.AC.Power,PV System,PV #1 (30° S),AC.Power,kW,
-2,Fixed.AC.Power.Q,PV System,PV #1 (30° S),AC.Power.Q,kVAR,
-3,Fixed.AC.Energy.Cum.Net,PV System,PV #1 (30° S),AC.Energy.Cum.Net,kWh,
-4,SAT.AC.Power,PV System,PV #4 (1-Axis),AC.Power,kW,
-5,SAT.AC.Power.Q,PV System,PV #4 (1-Axis),AC.Power.Q,kVAR,
-6,SAT.AC.Energy.Cum.Net,PV System,PV #4 (1-Axis),AC.Energy.Cum.Net,kWh,
-7,SAT.Irradiance.POA.South,PV System,PV #4 (1-Axis),Irradiance.POA,W/m^2,South
-8,SAT.Irradiance.POA.North,PV System,PV #4 (1-Axis),Irradiance.POA,W/m^2,North
-9,SAT.Temp.PV.Module.10,PV System,PV #4 (1-Axis),Temp.PV.Module,°C,Module 10
-10,SAT.Temp.PV.Module.5,PV System,PV #4 (1-Axis),Temp.PV.Module,°C,Module 5
-11,SAT.DC.Voltage.PV.String,PV System,PV #4 (1-Axis),DC.Voltage.PV.String,V,
-12,SAT.DC.Current.PV.String,PV System,PV #4 (1-Axis),DC.Current.PV.String,A,
-13,WS.Temp.Air.Outdoor.Amb,Weather Station,Wind Tower (10m),Temp.Air.Outdoor.Amb,°C,
-14,WS.Rel.Humidity.Outdoor.Amb,Weather Station,Wind Tower (10m),Rel.Humidity.Outdoor.Amb,%,
-15,WS.Press.Atm,Weather Station,Wind Tower (10m),Press.Atm,kPa,
-16,WS.Wind.Direction.MinSpeed,Weather Station,Wind Tower (10m),Wind.Direction,° from N,At Min Wind Speed
-17,WS.Wind.Direction.MaxSpeed,Weather Station,Wind Tower (10m),Wind.Direction,° from N,At Max Wind Speed
-18,WS.Wind.Direction.Avg,Weather Station,Wind Tower (10m),Wind.Direction,° from N,Vector Avg
-19,WS.Wind.Speed.Min,Weather Station,Wind Tower (10m),Wind.Speed,m/s,Min
-20,WS.Wind.Speed.Max,Weather Station,Wind Tower (10m),Wind.Speed,m/s,Max
-21,WS.Wind.Speed.Avg,Weather Station,Wind Tower (10m),Wind.Speed,m/s,Avg Magnitude
-22,WS.Wind.Speed.VectorAvg,Weather Station,Wind Tower (10m),Wind.Speed,m/s,Vector Avg
-23,Fixed.Irradiance.POA.East,PV System,PV #1 (30° S),Irradiance.POA,W/m^2,East
-24,Fixed.Irradiance.POA.West,PV System,PV #1 (30° S),Irradiance.POA,W/m^2,West
-25,Fixed.Temp.PV.Module2,PV System,PV #1 (30° S),Temp.PV.Module,°C,Module 2
-26,Fixed.Temp.PV.Module3,PV System,PV #1 (30° S),Temp.PV.Module,°C,Module 3
-27,Fixed.DC.Voltage.PV.String,PV System,PV #1 (30° S),DC.Voltage.PV.String,V,
-28,Fixed.DC.Current.PV.String,PV System,PV #1 (30° S),DC.Current.PV.String,A,
-29,WS.Irradiance.Global.Horiz,Solar Radiation Station,Sun Tracker,Irradiance.Global.Horiz,W/m^2,SMP11 (Unshaded)
-30,WS.Temp.Instrument.Body.Unshaded,Solar Radiation Station,Sun Tracker,Temp.Instrument.Body,°C,SMP11 (Unshaded)
-31,WS.Irradiance.Diffuse.Horiz,Solar Radiation Station,Sun Tracker,Irradiance.Diffuse.Horiz,W/m^2,SMP11 (Shaded)
-32,WS.Temp.Instrument.Body.SMP11Shaded,Solar Radiation Station,Sun Tracker,Temp.Instrument.Body,°C,SMP11 (Shaded)
-33,WS.Irradiance.Direct.Norm,Solar Radiation Station,Sun Tracker,Irradiance.Direct.Norm,W/m^2,SHP1
-34,WS.Temp.Instrument.Body.SHP1,Solar Radiation Station,Sun Tracker,Temp.Instrument.Body,°C,SHP1
-35,WS.Irradiance.NDLW.GR3Shaded,Solar Radiation Station,Sun Tracker,Irradiance.NDLW,W/m^2,CGR3 (Shaded)
-36,WS.Precipitation.Cum,PV Group,Array Orientations,Precipitation.Cum,mm,
-37,Fixed.Irradiance.POA.SMP11,PV System,PV #1 (30° S),Irradiance.POA,W/m^2,SMP11 (POA)
-38,Fixed.Temp.Instrument.Body.SMP11,PV System,PV #1 (30° S),Temp.Instrument.Body,°C,SMP11 (POA)
-39,WS.Irradiance.NDLW.SGR3Shaded,Solar Radiation Station,Sun Tracker,Irradiance.NDLW,W/m^2,SGR3 (Shaded)
-40,WS.Temp.Instrument.Body.SGR3,Solar Radiation Station,Sun Tracker,Temp.Instrument.Body,°C,SGR3 (Shaded)
+﻿Number,Name,Node Type,Node Name,Type,Unit,Aggregation (All end of interval),Descriptor,Data File
+1,Fixed_AC_Power,PV System,PV #1 (30° S),AC.Power,kW,Average,,SSRC01.csv
+2,Fixed_AC_Power_Q,PV System,PV #1 (30° S),AC.Power.Q,kVAR,Average,,SSRC01.csv
+3,Fixed_AC_Energy_Cum_Net,PV System,PV #1 (30° S),AC.Energy.Cum.Net,kWh,Sum,,SSRC01.csv
+4,SAT_AC_Power,PV System,PV #4 (1-Axis),AC.Power,kW,Average,,SSRC01.csv
+5,SAT_AC_Power_Q,PV System,PV #4 (1-Axis),AC.Power.Q,kVAR,Average,,SSRC02.csv
+6,SAT_AC_Energy_Cum_Net,PV System,PV #4 (1-Axis),AC.Energy.Cum.Net,kWh,Sum,,SSRC02.csv
+7,SAT_Irradiance_POA_South,PV System,PV #4 (1-Axis),Irradiance.POA,W/m^2,Average,South,SSRC02.csv
+8,SAT_Irradiance_POA_North,PV System,PV #4 (1-Axis),Irradiance.POA,W/m^2,Average,North,SSRC02.csv
+9,SAT_Temp_PV_Module_10,PV System,PV #4 (1-Axis),Temp.PV.Module,°C,Average,Module 10,SSRC03.csv
+10,SAT_Temp_PV_Module_5,PV System,PV #4 (1-Axis),Temp.PV.Module,°C,Average,Module 5,SSRC03.csv
+11,SAT_DC_Voltage_PV_String,PV System,PV #4 (1-Axis),DC.Voltage.PV.String,V,Average,,SSRC03.csv
+12,SAT_DC_Current_PV_String,PV System,PV #4 (1-Axis),DC.Current.PV.String,A,Average,,SSRC03.csv
+13,WS_Temp_Air_Outdoor_Amb,Weather Station,Wind Tower (10m),Temp.Air.Outdoor.Amb,°C,Average,,SSRC04.csv
+14,WS_Rel_Humidity_Outdoor_Amb,Weather Station,Wind Tower (10m),Rel.Humidity.Outdoor.Amb,%,Average,,SSRC04.csv
+15,WS_Press_Atm,Weather Station,Wind Tower (10m),Press.Atm,kPa,Average,,SSRC04.csv
+16,WS_Wind_Direction_MinSpeed,Weather Station,Wind Tower (10m),Wind.Direction,° from N,None,At Min Wind Speed,SSRC04.csv
+17,WS_Wind_Direction_MaxSpeed,Weather Station,Wind Tower (10m),Wind.Direction,° from N,None,At Max Wind Speed,SSRC05.csv
+18,WS_Wind_Direction_Avg,Weather Station,Wind Tower (10m),Wind.Direction,° from N,Average (Vector),Vector Avg,SSRC05.csv
+19,WS_Wind_Speed_Min,Weather Station,Wind Tower (10m),Wind.Speed,m/s,Minimum,Min,SSRC05.csv
+20,WS_Wind_Speed_Max,Weather Station,Wind Tower (10m),Wind.Speed,m/s,Maximum,Max,SSRC05.csv
+21,WS_Wind_Speed_Avg,Weather Station,Wind Tower (10m),Wind.Speed,m/s,Average (Magnitude),Avg Magnitude,SSRC06.csv
+22,WS_Wind_Speed_VectorAvg,Weather Station,Wind Tower (10m),Wind.Speed,m/s,Average (Vector),Vector Avg,SSRC06.csv
+23,Fixed_Irradiance_POA_East,PV System,PV #1 (30° S),Irradiance.POA,W/m^2,Average,East,SSRC06.csv
+24,Fixed_Irradiance_POA_West,PV System,PV #1 (30° S),Irradiance.POA,W/m^2,Average,West,SSRC06.csv
+25,Fixed_Temp_PV_Module2,PV System,PV #1 (30° S),Temp.PV.Module,°C,Average,Module 2,SSRC07.csv
+26,Fixed_Temp_PV_Module3,PV System,PV #1 (30° S),Temp.PV.Module,°C,Average,Module 3,SSRC07.csv
+27,Fixed_DC_Voltage_PV_String,PV System,PV #1 (30° S),DC.Voltage.PV.String,V,Average,,SSRC07.csv
+28,Fixed_DC_Current_PV_String,PV System,PV #1 (30° S),DC.Current.PV.String,A,Average,,SSRC07.csv
+29,WS_Irradiance_Global_Horiz,Solar Radiation Station,Sun Tracker,Irradiance.Global.Horiz,W/m^2,Average,SMP11 (Unshaded),SSRC08.csv
+30,WS_Temp_Instrument_Body_Unshaded,Solar Radiation Station,Sun Tracker,Temp.Instrument.Body,°C,Average,SMP11 (Unshaded),SSRC08.csv
+31,WS_Irradiance_Diffuse_Horiz,Solar Radiation Station,Sun Tracker,Irradiance.Diffuse.Horiz,W/m^2,Average,SMP11 (Shaded),SSRC08.csv
+32,WS_Temp_Instrument_Body_SMP11Shaded,Solar Radiation Station,Sun Tracker,Temp.Instrument.Body,°C,Average,SMP11 (Shaded),SSRC08.csv
+33,WS_Irradiance_Direct_Norm,Solar Radiation Station,Sun Tracker,Irradiance.Direct.Norm,W/m^2,Average,SHP1,SSRC09.csv
+34,WS_Temp_Instrument_Body_SHP1,Solar Radiation Station,Sun Tracker,Temp.Instrument.Body,°C,Average,SHP1,SSRC09.csv
+35,WS_Irradiance_NDLW_GR3Shaded,Solar Radiation Station,Sun Tracker,Irradiance.NDLW,W/m^2,Average,CGR3 (Shaded),SSRC09.csv
+36,WS_Precipitation_Cum,PV Group,Array Orientations,Precipitation.Cum,mm,Sum,,SSRC09.csv
+37,Fixed_Irradiance_POA_SMP11,PV System,PV #1 (30° S),Irradiance.POA,W/m^2,Average,SMP11 (POA),SSRC10.csv
+38,Fixed_Temp_Instrument_Body_SMP11,PV System,PV #1 (30° S),Temp.Instrument.Body,°C,Average,SMP11 (POA),SSRC10.csv
+39,WS_Irradiance_NDLW_SGR3Shaded,Solar Radiation Station,Sun Tracker,Irradiance.NDLW,W/m^2,Average,SGR3 (Shaded),SSRC10.csv
+40,WS_Temp_Instrument_Body_SGR3,Solar Radiation Station,Sun Tracker,Temp.Instrument.Body,°C,Average,SGR3 (Shaded),SSRC10.csv
